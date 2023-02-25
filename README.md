@@ -33,3 +33,35 @@ AI & ML
 **Others** Git, Github, Figma
 
 [![My Skills](https://skillicons.dev/icons?i=github,git,figma&perline=4)](https://skillicons.dev)
+
+## Screenshots
+
+Home Page:
+
+![](https://github.com/Pritamnag18/Moodify/blob/main/Screenshots/ss-1.png)
+
+Image Capture Page:
+
+![](https://github.com/Pritamnag18/Moodify/blob/main/Screenshots/ss-2.png)
+
+Mood Detection:
+
+![](https://github.com/Pritamnag18/Moodify/blob/main/Screenshots/ss-3.png)
+
+Suggested Playlist:
+
+![](https://github.com/Pritamnag18/Moodify/blob/main/Screenshots/ss-4.png)
+
+## Deployment
+
+**Frontend**
+https://moodify-pro.netlify.app/
+
+**Backend**
+https://emotion-detection-darm.onrender.com
+
+
+## Contributors
+<a href="https://github.com/Pritamnag18/Moodify/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Pritamnag18/Moodify" />
+</a>
