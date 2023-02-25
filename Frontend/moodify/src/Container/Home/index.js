@@ -17,9 +17,9 @@ const HomeContainer = () => {
                             <h1>Moodify</h1>
                             <h2>Get your Music Playlist <br /> according to your Mood</h2>
                             <div className="button-one mt-4 pt-3">
-                                <Link to={'/camera'} style={{textDecoration:"none"}}>
-                                <button className="Primary btn btn-secondary rounded-5 d-flex align-items-center"><IoCameraOutline size={28} style={{verticalAlign:'middle'}}/><span className="mx-2">OPEN YOUR CAMERA</span></button>
-                                </Link>
+                                
+                                <button className="Primary btn btn-dark rounded-5 d-flex align-items-center"><Link to={'/camera'} style={{textDecoration:"none",color: "white"}}><IoCameraOutline size={28} style={{verticalAlign:'middle'}}/><span className="mx-2">OPEN YOUR CAMERA</span></Link></button>
+                                
                             </div>
                             <h3>CLICK  the above button to get your playlist.</h3>
                         </div>
