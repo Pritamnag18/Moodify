@@ -8,9 +8,9 @@ import Particle from "../../components/Particle";
 const HomeContainer = () => {
     return (
         <>
-        <div className="particles"><Particle/></div>
-            <div className="d-flex align-items-center" style={{ minHeight: "100vh"}}>
-
+        
+            <div className="d-flex align-items-center" style={{ minHeight: "80vh"}}>
+            <div className="particles"><Particle/></div>
                 <div className="container">
                     <div className="row  flex-lg align-items-center">
                         <div className={`col-xl-5 col-lg-7 mt-2`} style={{ paddingLeft: '20px' }}>
