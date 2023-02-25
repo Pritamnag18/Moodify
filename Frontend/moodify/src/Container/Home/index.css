@@ -5,6 +5,20 @@
      /* background-color: rgba(208, 191, 255, 1); */
      background-color: rgba(10, 25, 47, 1);
  } 
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(10, 25, 47, 1);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(204, 214, 246);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
 .particles{
     z-index: -1;
     position: absolute;
