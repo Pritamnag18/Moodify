@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import WebcamCapture from "../Container/Camera";
+import WebcamCapture from "../Container/Camera";
 import HomeContainer from '../Container/Home';
 // import Playlist from "../Container/Playlist";
 
@@ -13,7 +13,7 @@ const RouterComponent = ()=>{
 
           <Route path="/" element={<HomeContainer/>} />
           {/* <Route path="/playlist" element={<Playlist/>} /> */}
-          {/* <Route path="/camera" element={<WebcamCapture/>} /> */}
+          <Route path="/camera" element={<WebcamCapture/>} />
         
 
 
