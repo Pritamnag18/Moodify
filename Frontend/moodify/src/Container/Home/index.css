@@ -40,6 +40,9 @@ button.Primary{
     color: rgba(255, 255, 255, 1);
     mix-blend-mode: normal;
 }
+/* .primary :hover{
+    
+} */
 
 h3{
     font-family: 'Aleo', serif;
