@@ -9,11 +9,11 @@ const HomeContainer = () => {
     return (
         <>
         
-            <div className="d-flex align-items-center" style={{ minHeight: "80vh"}}>
+            <div className="d-flex align-items-center" style={{ minHeight: "95vh"}}>
             <div className="particles"><Particle/></div>
                 <div className="container">
                     <div className="row  flex-lg align-items-center">
-                        <div className={`col-xl-5 col-lg-7 mt-2`} style={{ paddingLeft: '20px' }}>
+                        <div className={`col-xl-6 col-xxl-5 col-lg-7 mt-2`} style={{ paddingLeft: '20px' }}>
                             <h1>Moodify</h1>
                             <h2>Get your Music Playlist <br /> according to your Mood</h2>
                             <div className="button-one mt-4 pt-3">  
@@ -21,7 +21,7 @@ const HomeContainer = () => {
                             </div>
                             <h3>CLICK  the above button to get your playlist.</h3>
                         </div>
-                        {window.innerWidth>1000?<div className="col-xl-7 col-lg-5 container-2">
+                        {window.innerWidth>1000?<div className="col-xl-6 col-xxl-7 col-lg-5 container-2">
                             <img src={img1} alt="/" />
                         </div>:""}
                     </div>
